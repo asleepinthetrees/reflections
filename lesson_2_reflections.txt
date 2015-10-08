@@ -14,3 +14,50 @@ the repository. While the repository represents a group of files
 and the working directory represents the file or set of files
 which are in focus, the staging area is only the representation
 of files, and cannot be directly read to or from.
+
+How can you use the staging area to make sure you have one commit
+per lgoical change?
+
+You can use the staging area to examine the differences between
+your current working directory and the staging area, the
+staging area and the previous commit, and so forth. If you
+check the differences in the staging area then you will no doubt
+only add those changes which are logically supposed to be commited.
+
+What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+
+This would have helped me in my roll a ball game and in game
+production in geneeral. Whenever I'm adding a new feature or
+changing the style of the game as a whole it would be useful
+to create branches which could then be used to test out
+different styles of game play. This would also be used if I 
+was hypothetically trying out a new GUI on a desktop application
+I could implement the new GUI on one branch while retaining a 
+working GUI on a different branch.
+
+How do the diagrams help you visualize the branch structure?
+
+I haven't been drawing the diagrams. However, if I had, I would
+have noticed hwo you can see the history of git log laid out quite
+clearly in a linear format. you can also see how different
+commits affect the overall version of the historical file structure.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+Merging the branches allows features from each branch to coexist with 
+eachother in a seamless way. We represent it in the diagram as 
+two arrows pointing to the same branch because the git log or
+file history is now going to contain the commits from each branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+The pros of the automatic merges are that it saves time and reduces
+error. However the cons are that the automatic merging can make mistakes
+it can lead to propogation of code that does the same thing
+and worst of all it doesn't edit out code that does nothing. The pros
+of manual merging are that the user always gets last say on the file.
+For this reason, the user retains responsibilty for the output even
+though git is playing a large part in the production process.
