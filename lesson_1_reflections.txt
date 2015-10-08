@@ -1,0 +1,65 @@
+this first lesson has been sort of fun cuase everything is new to me. I'm
+sure the joys of typing mkdir and ls will wear away with time. Still new
+to this as I didn't understand that append export PATH=$PATH:/Applcations.to .bash-profile would require a text editor. Luckily I remembered nano
+and it all turned out ok!!!
+
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+Viewing the diff between the two versions basically limited the number of
+lines I could see, making it easier to find the points where the errors
+must have occurred. All this working in the command line actually seems
+to be making my life a little bit easier. Turn up!! I like it.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+It would make it faster for me to find errors, get back to the latest
+working product. Show people multiple versions with different additions.
+In fact the best idea would be for when I want to test additional 
+features without making changes to the live version of whatever I'm
+working on.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit like you do in Git, vs having versions automatically
+saved like Google docs does?
+
+Its useful to have manual saves because it creates logical steps
+from one save to another. Each save or commit rather, should 
+hypothetically represent the addition of one logical step from
+the previous commit. If all the steps are laid out, then it 
+should be no problem at all to find where things may have gone
+wrong, or right.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others treat each file separately?
+
+Because computer science is one of the only disciplines where your
+files are going to be interrelated to the point that changes
+in one could have an effect on the meaning of another file.
+
+How can you use the commands git log and git diff to view the history of
+files?
+
+You can use git log to see when changes were made, then use git diff
+to view the difference between the files when changes were made
+and any commit previous to it.
+
+How might using version control make you more confident to make changes
+that could break something?
+
+I would no longer be afraid of getting to the point where ctrl-z doesn't
+fix things. Sometimes I'm limited by the fact that editing large 
+sections of code means that a mistake could result in the loss of a 
+product. In fact this summer, my lack of version control meant that
+the progress I had made designing a website for my internship
+was lost.
+
+What do you want to try using Git for?
+
+Honestly it coudl be useful for just about anything. When I write papers
+I could go back to a previous version. If I'm taking notes in a class
+I could go back to my notes for a previous date and see where we left
+off, or what we covered. When I'm writing software the reasons are
+more obvious. It can help me develop faster and I just need to 
+understand git in order to succeed out there.
