@@ -5,3 +5,30 @@ While working with other collaborators, or when creating an
 open source project. Basically any time you would like to be able
 to share your work while still maintaining the ability to
 continue privately. 
+
+Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+Because if Git stayed up to date with your remote repository you may
+be pulling in changes that other people have made, or you just may
+want to work on something locally and then push it on to the git 
+repository. In essence its just simpler if the local and remote
+repositories remain separate other than when users attempt to change
+things themselves.
+
+Describe the differences between forks, clones, and branches. When would 
+you use one instead of the other?
+
+forks are used to create a clone of a project that is already on github. 
+Forks are especially useful if you don't have permission to collaborate
+on a project. Clones are useful if you want to take a project that already
+exists on your own github, and bring it to your local file. Branches are 
+useful in Git and Github projects that you have control over. They let
+you create more or less a check point or split check point where you can
+develop your program in two different directions. Or even try implementing
+completely separate features.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+You can always check to see if you are ahead or behind the remote
